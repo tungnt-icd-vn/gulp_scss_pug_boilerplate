@@ -1,0 +1,12 @@
+@use '../helpers' as h;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: h.$font-family;
+  font-weight: 500;
+  font-size: h.rem(16);
+  color: h.$primary-color;
+}
